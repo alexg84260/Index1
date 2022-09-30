@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kaymura</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 12px;
+        }
+
+        main {
+            width: 964px;
+            margin: 40px auto 0 auto;
+
+        }
+
+        footer {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(180deg, rgb(135, 133, 174) 0%, rgba(53, 221, 188, 1) 31%, rgba(0, 212, 255, 1) 87%);
+            height: 150px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(215, 215, 215, 0.5);
+            display: flex;
+            /* flex-direction: row; */
+            align-items: flex-start;
+            justify-content: space-around;
+            color: rgb(65, 65, 65);
+            height: 130px;
+        }
+
+        header>img {
+            margin-top: 25px;
+            margin-left: 20px;
+        }
+
+        nav {
+            display: flex;
+            /* flex-direction:row;    */
+        }
+
+   
+
+        p { position: relative;
+            font-size: 14px;
+            
+            
+        
+        }
+
+        .logo2 {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        h3 {
+            font-family: 'Antic', sans-serif;
+            color: goldenrod;
+            font-size: 1.4em;
+            padding-top: 40px;
+        }
+
+        a {
+            line-height: 100px;
+            padding: 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            transition: all 5s;
+            background-image: url(images/bg-nav-selected.png);
+        }
+
+        .paragraphe1 {
+            display: flex;
+            
+            
+            
+
+        }
+        .paragraphe1>div {
+            width: 50%;
+
+        }  
+        .paragraphe2 {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .paragraphe2>div {
+            width: 50%;
+        }
+        .img2 {
+            float: right;
+        }
+        .img1 {
+            float: left;
+        }
+
+        .img3 {
+            float: left;
+        }
+
+        .paragraphe3 {
+            display: flex;
+            flex-direction: row;
+            
+           
+            
+        }
+
+        .paragraphe3>div {
+            width: 50%;
+            
+        }
+
+       
+
+
+        .sprite {
+            border: solid 1px rgb(255, 255, 255);
+            border-radius: 6px;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin: 50px;
+            background-image: url(./images/icons.png);
+            background-repeat: no-repeat;
+        }
+
+        .google {
+            background-position: 0;
+        }
+
+        .mail {
+            background-position: -31px;
+        }
+
+        .facebook {
+            background-position: -62px;
+        }
+
+        .twitter {
+            background-position: -93px;
+        }
+
+
+        @media screen and (max-width:900px) {
+            main {
+                width: 100%;
+            }
+
+            nav {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+
+            }
+
+            nav a {
+                line-height: 24px;
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+
+            }
+
+            h3 {
+                display: flex;
+                justify-content: center;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+        <nav>
+            <a href="">Home</a>
+            <a href="">Subdivisions</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="paragraphe1">
+
+            <!-- Flex item 1 -->
+            <div>
+                <img src="images/house.png" alt="house">
+            </div>
+
+            <!-- Flex item 2 -->
+            <div>
+                <img src="images/kayamura.png" alt="Kayamura">
+                <h3>This is just a place holder</h3>
+
+                <p>This website template has been designed by freewebsitetemplates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the forum.</p>
+            </div>
+        </div>
+
+        <div class="paragraphe2">
+        <div>    
+            <img class="img2" src="images/nature-place-photo.png" alt="photo2">
+        </div>
+        <div>
+            <h3>This is just a place holder</h3>
+            <p>This website template has been designed by freewebsitetemplates for you, for free. 
+
+                You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. 
+                
+                If you're having problems editing this website template, then don't hesitate to ask for help on the forum.
+                </p>
+            </div>
+            </div>
+        </div>
+
+        <div class="paragraphe3">
+            <div>
+                <img class="img3" src="images/eco-park.png" alt="photo3">
+                </div>
+                <div>
+            <h3>This is just a place holder</h3>
+
+            <p>This website template has been designed by freewebsitetemplates for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. 
+
+                If you're having problems editing this website template, then don't hesitate to ask for help on the forum.</p>
+            </div>
+                
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright 2012</p>
+
+        
+
+        <div class="sprite google"></div>
+        <div class="sprite mail"></div>
+        <div class="sprite facebook"></div>
+        <div class="sprite twitter"></div>
+       
+    </footer>
+
+</body>
+
+</html>
